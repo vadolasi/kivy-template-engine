@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "template-engine-test"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Daniel <vitor036daniel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Kivy = "2.0.0rc4"
+Jinja2 = "^2.11.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
